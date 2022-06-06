@@ -22,23 +22,23 @@
   These attributes, also called features, create decision rules that help in ```branching```. The branching process splits the root node into sub-nodes, splitting 
   further into more sub-nodes until leaf nodes are formed. Leaf nodes cannot be divided further.
   
-  <p><b>Gini Index</b>: Also known as Gini impurity, calculates the amount of probability of a specific feature that is classified incorrectly when selected 
+  <p><b>--> Gini Index</b>: Also known as Gini impurity, calculates the amount of probability of a specific feature that is classified incorrectly when selected 
   randomly. If all the elements are linked with a single class then it can be called pure. Gini index varies between values 0 and 1.</p>
   
-  <p><b>Entropy</b>: The measure of disorder, or measure of purity. Basically, it is the measurement of the impurity or randomness in the data points.</p>
+  <p><b>--> Entropy</b>: The measure of disorder, or measure of purity. Basically, it is the measurement of the impurity or randomness in the data points.</p>
   
-  <p><b>Information Gain </b>: Information Gain is applied to quantify which feature provides maximal information about the classification based on the 
+  <p><b>--> Information Gain </b>: Information Gain is applied to quantify which feature provides maximal information about the classification based on the 
   notion of entropy, i.e. by quantifying the size of uncertainty, disorder or impurity, in general, with the intention of decreasing the amount of entropy 
   initiating from the top (root node) to bottom(leaves nodes).</p>
   
-  <h3>Advantages: 👍</h3>
+  <h3>Advantages: 🤔</h3>
   <p>1. Requires less effort when compared to other algorithms</p>
   <p>2. It does not require normalization of data</p>
   <p>3. Does not require scaling of data</p>
   <p>4. The missing values of data doesn't effect the building of the decision tree</p>
   <p>5. The model is very intuitive and easy to explain </p>
   
-  <h3> Disadvantages: 👎 </h3>
+  <h3> Disadvantages: 🤔 </h3>
   <p>1. A small change in the data can cause a large change in the structure of the decision tree causing instability.</p>
   <p>2. For a Decision tree sometimes calculation can go far more complex compared to other algorithms.</p>
   <p>3. Decision tree often involves higher time to train the model.</p>
@@ -54,7 +54,7 @@ Random forest is a flexible, easy-to-use machine learning algorithm that produce
  
  <p>Random forest algorithm is that it is very easy to measure the relative importance of each feature on the prediction. Sklearn provides a great tool for this that measures a feature’s importance by looking at how much the tree nodes that use that feature reduce impurity across all trees in the forest. Random forest improves on bagging because it decorrelates the trees with the introduction of splitting on a random subset of features. This means that at each split of the tree, the model considers only a small subset of features rather than all of the features of the model. That is, from the set of available features n, a subset of m features (m=square root of n) are selected at random. This is important so that variance can be averaged away. Consider what would happen if the data set contains a few strong predictors. These predictors will consistently be chosen at the top level of the trees, so we will have very similar structured trees. In other words, the trees would be highly correlated.</p>
  
- <h3>Advantages of Random Forest: 👍</h3>
+ <h3>Advantages of Random Forest: 🤔</h3>
  <p>1. Parallelizable</p>
  <p>2. Great with High dimensionality</p>
  <p>3. Quick Prediction/Training Speed</p>
@@ -62,7 +62,7 @@ Random forest is a flexible, easy-to-use machine learning algorithm that produce
  <p>5. Handles Unbalanced Data</p>
  <p>6. Low Bias, Moderate Variance</p>
  
- <h3>Disadvantage: 👎</h3>
+ <h3>Disadvantage: 🤔</h3>
  <p>1. Model interpretability: Random forest models are not all that interpretable; they are like black boxes.</p>
  <p>2. For very large data sets, the size of the trees can take up a lot of memory.</p>
  <p>3. It can tend to overfit, so you should tune the hyperparameters.</p>
