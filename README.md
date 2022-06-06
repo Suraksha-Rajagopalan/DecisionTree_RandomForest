@@ -43,4 +43,25 @@
   <p>5.The Decision Tree algorithm is inadequate for applying regression and predicting continuous values.</p>
   
   
+  <h2> 🌲🌳🌲🌳🌲Random Forest</h2>
+<p>Random forest is a flexible, easy-to-use machine learning algorithm that produces, even without hyper-parameter tuning, a great result most of the time. It is also one of the most-used algorithms, due to its simplicity and diversity (it can be used for both classification and regression tasks). The "forest" it builds is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.</p>
+ 
+ <p>Random forest adds additional randomness to the model, while growing the trees. Instead of searching for the most important feature while splitting a node, it searches for the best feature among a random subset of features. This results in a wide diversity that generally results in a better model. Therefore, in random forest, only a random subset of the features is taken into consideration by the algorithm for splitting a node. You can even make trees more random by additionally using random thresholds for each feature rather than searching for the best possible thresholds (like a normal decision tree does).</p>
+ 
+ <p>Random forest algorithm is that it is very easy to measure the relative importance of each feature on the prediction. Sklearn provides a great tool for this that measures a feature’s importance by looking at how much the tree nodes that use that feature reduce impurity across all trees in the forest. Random forest improves on bagging because it decorrelates the trees with the introduction of splitting on a random subset of features. This means that at each split of the tree, the model considers only a small subset of features rather than all of the features of the model. That is, from the set of available features n, a subset of m features (m=square root of n) are selected at random. This is important so that variance can be averaged away. Consider what would happen if the data set contains a few strong predictors. These predictors will consistently be chosen at the top level of the trees, so we will have very similar structured trees. In other words, the trees would be highly correlated.</p>
+ 
+ <h3> 👍Advantages of Random Forest</h3>
+ <p>1.Parallelizable</p>
+ <p>2.Great with High dimensionality</p>
+ <p>3.Quick Prediction/Training Speed</p>
+ <p>4.Robust to Outliers and Non-linear Data</p>
+ <p>5.Handles Unbalanced Data</p>
+ <p>6.Low Bias, Moderate Variance</p>
+ 
+ <h3> 👎Disadvantage</h3>
+ <p>1.Model interpretability: Random forest models are not all that interpretable; they are like black boxes.</p>
+ <p>2.For very large data sets, the size of the trees can take up a lot of memory.</p>
+ <p>3.It can tend to overfit, so you should tune the hyperparameters.</p>
+ 
+  
   
