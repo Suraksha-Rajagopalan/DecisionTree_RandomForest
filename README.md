@@ -10,17 +10,17 @@
   </div>
   
   <h2> Decision Tree: 🌳</h2>
-  <p>The decision tree algorithm builds the classification model in the form of a tree structure. It utilizes the if-then rules which are equally 
+  The decision tree algorithm builds the classification model in the form of a tree structure. It utilizes the if-then rules which are equally 
   exhaustive and mutually exclusive in classification. The process goes on with breaking down the data into smaller structures and eventually associating it 
   with an incremental decision tree. The learning process is continuous and based on feedback. This improves the outcome of learning over time. This kind 
   of learning is called supervised learning. Therefore, decision tree models are support tools for supervised learning. A decision tree starts from the 
-  root or the top decision node that classifies data sets based on the values of carefully selected attributes.The algorithm used by decision tree is called <b>cart</b>.</p>
+  root or the top decision node that classifies data sets based on the values of carefully selected attributes.The algorithm used by decision tree is called ```cart```.
   
-  <p>The <b>root node</b> represents the entire dataset. This is where the first step in the algorithm selects the best predictor variable. It makes it a 
-  <b>decision node</b>. It also classifies the whole dataset into various classes or smaller datasets. The set of criteria for selecting attributes is 
-  called <b>Attribute Selection Measures (ASM)</b>. ASM is based on selection measures, including information gain, entropy, Gini index, Gain ratio, and so on. 
-  These attributes, also called features, create decision rules that help in <b>branching</b>. The branching process splits the root node into sub-nodes, splitting 
-  further into more sub-nodes until leaf nodes are formed. Leaf nodes cannot be divided further.</p>
+  The ```root node``` represents the entire dataset. This is where the first step in the algorithm selects the best predictor variable. It makes it a 
+  ```decision node```. It also classifies the whole dataset into various classes or smaller datasets. The set of criteria for selecting attributes is 
+  called ```Attribute Selection Measures (ASM)```. ASM is based on selection measures, including information gain, entropy, Gini index, Gain ratio, and so on. 
+  These attributes, also called features, create decision rules that help in ```branching```. The branching process splits the root node into sub-nodes, splitting 
+  further into more sub-nodes until leaf nodes are formed. Leaf nodes cannot be divided further.
   
   <p><b>Gini Index</b>: Also known as Gini impurity, calculates the amount of probability of a specific feature that is classified incorrectly when selected 
   randomly. If all the elements are linked with a single class then it can be called pure. Gini index varies between values 0 and 1.</p>
