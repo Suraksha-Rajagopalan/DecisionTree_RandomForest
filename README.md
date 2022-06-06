@@ -14,7 +14,7 @@
   exhaustive and mutually exclusive in classification. The process goes on with breaking down the data into smaller structures and eventually associating it 
   with an incremental decision tree. The learning process is continuous and based on feedback. This improves the outcome of learning over time. This kind 
   of learning is called supervised learning. Therefore, decision tree models are support tools for supervised learning. A decision tree starts from the 
-  root or the top decision node that classifies data sets based on the values of carefully selected attributes.The algorithm used by decision tree is called ```cart```.
+  root or the top decision node that classifies data sets based on the values of carefully selected attributes.The algorithm used by decision tree is called cart.
   
   The ```root node``` represents the entire dataset. This is where the first step in the algorithm selects the best predictor variable. It makes it a 
   ```decision node```. It also classifies the whole dataset into various classes or smaller datasets. The set of criteria for selecting attributes is 
